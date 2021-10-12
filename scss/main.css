@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 45rem;
+  -webkit-box-shadow: 0 2rem 4rem rgba(114, 128, 167, 0.4);
+          box-shadow: 0 2rem 4rem rgba(114, 128, 167, 0.4);
+}
+
+.content__heading {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.content__paragraph {
+  font-size: 1.6rem;
+  color: #7280a7;
+  padding: 1rem 6rem;
+  text-align: center;
+}
+
+.content__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__annual-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eceef9;
+  border-radius: 1rem;
+  padding: 1.5rem 0rem;
+  margin: 1rem;
+}
+
+.content__annual-plan p {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.content__annual-plan p span {
+  color: #7280a7;
+  font-weight: 300;
+}
+
+.content__annual-plan a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3829e0;
+  margin-left: 8rem;
+  margin-right: 3rem;
+}
+
+.content__music {
+  margin: 0 1.9rem;
+}
+
+.content .btn {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #f5f7ff;
+  background-color: #3829e0;
+  margin: 2rem 2rem;
+  padding: 1.5rem 10.5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 2rem 2rem rgba(114, 128, 167, 0.4);
+          box-shadow: 0 2rem 2rem rgba(114, 128, 167, 0.4);
+}
+
+.content .btn--cancel {
+  margin: 1rem 2rem 5rem 2rem;
+  text-decoration: none;
+  color: #7280a7;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */
