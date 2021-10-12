@@ -110,6 +110,13 @@ body {
   color: #3829e0;
   margin-left: 8rem;
   margin-right: 3rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.content__annual-plan a:hover, .content__annual-plan a:active {
+  color: #6a5ee8;
+  text-decoration: none;
 }
 
 .content__music {
@@ -129,6 +136,12 @@ body {
   border-radius: 1rem;
   -webkit-box-shadow: 0 2rem 2rem rgba(114, 128, 167, 0.4);
           box-shadow: 0 2rem 2rem rgba(114, 128, 167, 0.4);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.content .btn:hover, .content .btn:active {
+  background-color: #6255e7;
 }
 
 .content .btn--cancel {
@@ -137,5 +150,20 @@ body {
   color: #7280a7;
   font-size: 1.4rem;
   font-weight: 600;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.content .btn--cancel:hover, .content .btn--cancel:active {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    background-image: url(/images/pattern-background-mobile.svg);
+  }
+  .content {
+    margin: 1rem 3rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
